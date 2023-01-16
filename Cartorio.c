@@ -180,7 +180,8 @@ int main()
 		
 		printf("\t 1 - Registrar nomes\n");
 		printf("\t 2 - Consultar nomes\n");
-		printf("\t 3 - Deletar nomes\n\n");
+		printf("\t 3 - Deletar nomes\n");
+		printf("\t 4 - Sair do sistema.\n\n");
 		printf("\t Opção: ");
 	
 		//fim do menu
@@ -208,6 +209,11 @@ int main()
 			case 3:
 				deletar();					
 			break;					 
+			
+			case 4:
+				printf("Obrigado por utiizar o sistema.\n\n");				
+			return 0;
+			break;			
 			
 			default:
 			 	printf("Opção inválida.\n\n");
